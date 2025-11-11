@@ -1,9 +1,11 @@
 import FilePayload.Payload;
+import ReUseableMethod.ReuseableJavaMethod;
 import io.restassured.path.json.JsonPath;
 //complex Json parsing.
 public class ComplexJsonParsing {
 	public static void main(String [] args) {
-		JsonPath js=new JsonPath(Payload.DummyResponse());
+		JsonPath js=ReuseableJavaMethod.DummyRowToJson(Payload.DummyResponse());
+		//JsonPath js=new JsonPath(Payload.DummyResponse());
 		//Size of the array present in json.
 		int courceCount=js.getInt("courses.size()");
 		System.out.println(courceCount);
