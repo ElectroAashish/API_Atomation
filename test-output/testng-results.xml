@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-11T22:21:05 IST" name="Default suite" finished-at="2025-11-11T22:21:08 IST" duration-ms="2859">
+  <suite started-at="2025-11-14T18:26:05 IST" name="Default suite" finished-at="2025-11-14T18:26:10 IST" duration-ms="5059">
     <groups>
     </groups>
-    <test started-at="2025-11-11T22:21:05 IST" name="Default test" finished-at="2025-11-11T22:21:08 IST" duration-ms="2859">
-      <class name="DynamicJason">
-        <test-method signature="AddBook(java.lang.String,java.lang.String)[pri:0, instance:DynamicJason@942a29c]" started-at="2025-11-11T22:21:05 IST" name="AddBook" data-provider="data" finished-at="2025-11-11T22:21:08 IST" duration-ms="2523" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdfghjkl]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234567890]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-11-14T18:26:05 IST" name="Default test" finished-at="2025-11-14T18:26:10 IST" duration-ms="5059">
+      <class name="Jira_API">
+        <test-method signature="CreateBug()[pri:0, instance:Jira_API@4659191b]" started-at="2025-11-14T18:26:05 IST" name="CreateBug" finished-at="2025-11-14T18:26:10 IST" duration-ms="5008" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddBook -->
-        <test-method signature="AddBook(java.lang.String,java.lang.String)[pri:0, instance:DynamicJason@942a29c]" started-at="2025-11-11T22:21:08 IST" name="AddBook" data-provider="data" finished-at="2025-11-11T22:21:08 IST" duration-ms="142" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[zxcvbnm]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1230987]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddBook -->
-        <test-method signature="AddBook(java.lang.String,java.lang.String)[pri:0, instance:DynamicJason@942a29c]" started-at="2025-11-11T22:21:08 IST" name="AddBook" data-provider="data" finished-at="2025-11-11T22:21:08 IST" duration-ms="131" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qwertyuiop]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[567821890]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddBook -->
-      </class> <!-- DynamicJason -->
+        </test-method> <!-- CreateBug -->
+      </class> <!-- Jira_API -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
