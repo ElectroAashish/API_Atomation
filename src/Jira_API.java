@@ -52,5 +52,11 @@ public class Jira_API {
 				.multiPart("file",new File("D:\\JAVA_Aashish\\Notes\\Lecture02\\XAasgdxjgc,vh..txt"))
 				.when().post("rest/api/3/issue/{key}/attachments")
 				.then().log().all().assertThat().statusCode(200);
+		
+		given().log().all().header("Authorization","Basic YWFzaGlzaHlhZGF2MTU4QGdtYWlsLmNvbTpBVEFUVDN4RmZHRjB3QVJ1OC13V0dGNHZWTEl6cDNMdXJWbmxVa3Fxc3FCVGZqaUtxQmd2MS1KSGxWbGpOcHRwVDNUdmNLV0YzVXB4VEN0Z3ZIU0JTSXhRbWtqSEZPZXIyWFcyRXlya01ETFcxOGpzbUNKMG1jSGkyREU3cmpvNGdRQ2hTbGstS2NqVWpTTXJVN1k5OWVocFhUeDRXWFNxdkl1Y2lGNk5WQ0xvLUdUVF9YMmQzSkE9RjZBRTk2ODA=").
+		header("Accept","application/json").
+		when().get("rest/api/3/issue/"+issueId+"").
+		then().log().all().assertThat().statusCode(200);
+		
 	}
 }

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-14T18:26:05 IST" name="Default suite" finished-at="2025-11-14T18:26:10 IST" duration-ms="5059">
+  <suite started-at="2025-11-19T23:51:34 IST" name="Default suite" finished-at="2025-11-19T23:51:43 IST" duration-ms="8778">
     <groups>
     </groups>
-    <test started-at="2025-11-14T18:26:05 IST" name="Default test" finished-at="2025-11-14T18:26:10 IST" duration-ms="5059">
-      <class name="Jira_API">
-        <test-method signature="CreateBug()[pri:0, instance:Jira_API@4659191b]" started-at="2025-11-14T18:26:05 IST" name="CreateBug" finished-at="2025-11-14T18:26:10 IST" duration-ms="5008" status="PASS">
+    <test started-at="2025-11-19T23:51:34 IST" name="Default test" finished-at="2025-11-19T23:51:43 IST" duration-ms="8778">
+      <class name="GoogleApi">
+        <test-method signature="AddPlace()[pri:0, instance:GoogleApi@2d710f1a]" started-at="2025-11-19T23:51:34 IST" name="AddPlace" finished-at="2025-11-19T23:51:43 IST" duration-ms="8712" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateBug -->
-      </class> <!-- Jira_API -->
+        </test-method> <!-- AddPlace -->
+      </class> <!-- GoogleApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
